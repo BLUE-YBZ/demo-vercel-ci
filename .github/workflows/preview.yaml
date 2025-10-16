@@ -3,7 +3,10 @@
 name: GitHub Actions Preview Deployment
 
 # 触发条件：当有Pull Request事件时执行
-on:[push, pull_request]
+on:
+  push:
+  pull_request:
+
 
    
 # 工作任务定义
